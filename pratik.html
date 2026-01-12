@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pratik | Portfolio</title>
+  <link rel="icon" type="image/png" href="cv.png">
+  <meta name="description" content="BBA-CA graduate building practical web apps with PHP, MySQL, and Java." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#">Pratik</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle" class="btn-ghost">Dark</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <h1>Hi, I'm Pratik.</h1>
+        <p>Developer focused on practical web apps—PHP, MySQL, Java, and Python. I turn ideas into clean, usable tools.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn-outline" href="Pratik Bhalerao Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+        </div>
+      </div>
+     
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>Based in Pune, originally from Ahmednagar. BBA (Computer Applications). I enjoy building systems that solve everyday problems with clear UX and reliable data workflows.</p>
+      <ul class="about-highlights">
+        <li><strong>Focus:</strong> Full‑stack basics with PHP/MySQL and front‑end polish</li>
+        <li><strong>Strengths:</strong> Clean code, practical features, thorough testing</li>
+        <li><strong>Interests:</strong> Java interviews prep, digital art, poetry</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <p>Java, PHP, Python, HTML, CSS, JavaScript</p>
+        </div>
+        <div class="card">
+          <h3>Databases</h3>
+          <p>MySQL (CRUD, joins, indexing basics)</p>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <p>Git, VS Code, Excel</p>
+        </div>
+        <div class="card">
+          <h3>Concepts</h3>
+          <p>OOP, REST, auth basics, responsive design</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          
+          <div>
+            <h3>Library Management System</h3>
+            <p>PHP + MySQL with inventory, member records, and fine tracking. Role-based access and clean CRUD UI.</p>
+            
+            
+          </div>
+        </article>
+        <article class="project-card">
+          
+          <div>
+            <h3>Clinic Management System</h3>
+            <p>Appointments, patient records, and billing. Emphasis on validation and data privacy patterns.</p>
+            
+            
+          </div>
+        </article>
+        <article class="project-card">
+          
+          <div>
+            <h3>Employee Management System</h3>
+            <p>Role-based dashboards, attendance, and performance notes. Built with clean MVC structure.</p>
+            
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send</button>
+      </form>
+      <div class="contact-links">
+        <a href="https://github.com/Pratikbhalerao2002" target="_blank" rel="noopener">GitHub</a>
+         <a href="www.linkedin.com/in/pratik-bhalerao-1a5114272" target="_blank" rel="noopener">LinkedIn</a>
+        
+        <a href="mailto:you@example.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pratik. Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
